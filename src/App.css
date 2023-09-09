@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Dancing+Script:wght@500&display=swap");
+.font1{
+  font-family: 'Dancing Script';
+  /* -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; */
+}
+.font2{
+  font-family:'Crimson Text';
+  /* -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; */
+}
+.font3{
+  font-family: 'Nanun Myeongjo';
+  /* -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; */
+}
+
 .App {
   text-align: center;
 }
