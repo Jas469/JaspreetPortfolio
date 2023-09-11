@@ -77,50 +77,52 @@ export default function Slider() {
     }
     return (
         <div>
-            <div className="justify-between mt-1  bg-gradient-to-r from-slate-600 via-slate-400 to-slate-600 flex w-full ">
-                <button onClick={educationn} className={`${educationclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid`}>
+            <div className="justify-between mt-1  bg-gradient-to-r from-slate-600 via-slate-400 to-slate-600 flex w-full xsm:text-sm xsm:block">
+                <button onClick={educationn} className={`${educationclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid xsm:w-full`}>
                     <div className="">Educational Qualification</div>
                 </button>
-                <button onClick={certificatess} className={`${certificateclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid`}>
+                <button onClick={certificatess} className={`${certificateclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid xsm:w-full`}>
                     <div className="">Certifications</div>
                 </button>
-                <button onClick={projectss} className={`${projectclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid`}>
+                <button onClick={projectss} className={`${projectclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid xsm:w-full`}>
                     <div className="">Work Experience</div>
                 </button>
-                <button onClick={achievemenntss} className={`${achievementclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid`}>
+                <button onClick={achievemenntss} className={`${achievementclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid xsm:w-full`}>
                     <div className="">Projects and Achievements</div>
                 </button>
-                <button onClick={sils} className={`${silclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid`}>
+                <button onClick={sils} className={`${silclass}flex p-2 w-[20%] justify-center m-auto hover:bg-slate-700 hover:text-white hover:border-r-2 hover:border-l-2 border-white border-solid xsm:w-full`}>
                     <div className="">
-                        Skills, Interests and Languages
+                        Skills, Interests & Languages
                     </div>
                 </button>
             </div>
 
+
+
             <div>
                 <div className={`${education}`}>
-                    <div className="flex justify-center ">
-                        <table className="w-[90%] bg-slate-700  text-center p-2 mt-4">
-                            <tr>
-                                <td className="w-[5%] border-2 border-solid border-white p-2 text-white">
+                    <div className="flex justify-center mb-10">
+                        <table className="w-[90%] bg-slate-700  text-center p-2 mt-4 xsm:w-full">
+                            <tr className=" xsm:text-sm">
+                                <td className="w-[5%] border-2 border-solid border-white p-2 text-white xsm:hidden">
                                     Sno.
                                 </td>
-                                <td className="w-[25%] border-2 border-solid border-white p-2 text-white">
+                                <td className="w-[25%] border-2 border-solid border-white p-2 text-white xsm:w-[15%]">
                                     Educational Qualification
                                 </td>
-                                <td className="w-[35%] border-2 border-solid border-white p-2 text-white">
+                                <td className="w-[35%] border-2 border-solid border-white p-2 text-white xsm:w-[15%]">
                                     Institution
                                 </td>
-                                <td className="w-[20%] border-2 border-solid border-white p-2 text-white">
+                                <td className="w-[20%] border-2 border-solid border-white p-2 text-white xsm:w-[5%]">
                                     Percentage Obtained
                                 </td>
-                                <td className="w-[20%] border-2 border-solid border-white p-2 text-white">
+                                <td className="w-[20%] border-2 border-solid border-white p-2 text-white xsm:w-[5%]">
                                     Passing Year
                                 </td>
                             </tr>
                             <tbody>
-                                <tr className="bg-white">
-                                    <td className="border-2 border-solid border-black p-2 text-black">
+                                <tr className="bg-white xsm:text-sm">
+                                    <td className="border-2 border-solid border-black p-2 text-black xsm:hidden">
                                         1.
                                     </td>
                                     <td className="border-2 border-solid border-black p-2 text-black text-left">
@@ -136,8 +138,8 @@ export default function Slider() {
                                         2024
                                     </td>
                                 </tr>
-                                <tr className="bg-white">
-                                    <td className="border-2 border-solid border-black p-2 text-black">
+                                <tr className="bg-white xsm:text-sm">
+                                    <td className="border-2 border-solid border-black p-2 text-black xsm:hidden">
                                         2.
                                     </td>
                                     <td className="border-2 border-solid border-black p-2 text-black text-left">
@@ -153,8 +155,8 @@ export default function Slider() {
                                         2020
                                     </td>
                                 </tr>
-                                <tr className="bg-white">
-                                    <td className="border-2 border-solid border-black p-2 text-black">
+                                <tr className="bg-white xsm:text-sm">
+                                    <td className="border-2 border-solid border-black p-2 text-black xsm:hidden">
                                         3.
                                     </td>
                                     <td className="border-2 border-solid border-black p-2 text-black text-left">
@@ -178,7 +180,7 @@ export default function Slider() {
 
                 <div className={`${certificates}`}>
                     <div className="flex justify-center mb-10">
-                        <table className="w-[90%] bg-slate-700  text-center p-2 mt-4">
+                        <table className="w-[90%] bg-slate-700  text-center p-2 mt-4 xsm:text-sm">
                             <tr>
                                 <td className="w-[10%] border-2 border-solid border-white p-2 text-white">
                                     Sno.
@@ -305,21 +307,79 @@ export default function Slider() {
 
 
                 <div className={`${projects} `}>
-
+                    <div>
+                    <div className="flex justify-center mb-10 xsm:text-sm">
+                            <table className="w-[90%] bg-slate-700  text-center p-2 mt-4">
+                                <tr>
+                                    <td className="w-[10%] border-2 border-solid border-white p-2 text-white">
+                                        Sno.
+                                    </td>
+                                    <td className="w-[30%] border-2 border-solid border-white p-2 text-white">
+                                        Position
+                                    </td>
+                                    <td className="w-[020%] border-2 border-solid border-white p-2 text-white">
+                                        Company
+                                    </td>
+                                    <td className="w-[20%] border-2 border-solid border-white p-2 text-white">
+                                        Offer Letter
+                                    </td>
+                                    <td className="w-[20%] border-2 border-solid border-white p-2 text-white">
+                                        Period
+                                    </td>
+                                </tr>
+                                <tbody>
+                                    <tr className="bg-white">
+                                        <td className="border-2 border-solid border-black p-2 text-black">
+                                            1.
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black text-left">
+                                            Web Developer Intern
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black text-left">
+                                            Code Casa
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black decoration-slice ">
+                                            <a href="https://auth.geeksforgeeks.org/user/jaspreetkaursaini469/"><div className="flex justify-center"><div className="mr-2">Link</div><div><FiExternalLink></FiExternalLink></div></div></a>
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black text-center">
+                                            15.08.2023 - 15.09.2023
+                                        </td>
+                                    </tr>
+                                    <tr className="bg-white">
+                                        <td className="border-2 border-solid border-black p-2 text-black">
+                                            2.
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black text-left">
+                                            Web Developer Intern
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black text-left">
+                                            Bharat Intern
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black decoration-slice ">
+                                            <a href="https://www.codechef.com/users/jaspreet_23"><div className="flex justify-center"><div className="mr-2">Link</div><div><FiExternalLink></FiExternalLink></div></div></a>
+                                        </td>
+                                        <td className="border-2 border-solid border-black p-2 text-black text-center">
+                                            15.09.2023 - 15.10.2023
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div className={`${achievements}`}>
                     <div>
-                        <div className=" mt-4 flex justify-center text-3xl font2 font-semibold">Projects</div>
-                        <div className="m-auto justify-around w-[90%] flex">
-                            <div className="w-[32%]">
+                        <div className=" mt-4 flex justify-center text-3xl font2 font-semibold xsm:text-2xl">Projects</div>
+                        <div className="m-auto justify-around w-[90%] flex xsm:block">
+                            <div className="w-[32%] xsm:w-[90%] xsm:m-auto">
                                 <div className="bg-slate-700 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3">
                                     <div className="mr-4 ">
                                         Portfolio
                                     </div>
                                 </div>
-                                <div className="w-[95%] shadow-gray-100 shadow-xl rounded-lg p-2 m-auto text-justify">
+                                <div className="w-[95%] shadow-gray-100 shadow-xl rounded-lg p-2 m-auto text-justify xsm:text-sm">
                                     <div className="text-xs justify-center flex mb-2 mt-0">
                                         <div className="bg-gray-300 p-1 px-3 rounded-md">
                                             (09/2023 - 09/2023)
@@ -338,13 +398,13 @@ export default function Slider() {
                                 </div>
                             </div>
 
-                            <div className="w-[32%]">
+                            <div className="w-[32%] xsm:w-[90%] xsm:m-auto">
                                 <div className="bg-slate-700 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3">
                                     <div className="mr-4 ">
                                         Campus Chronicels
                                     </div>
                                 </div>
-                                <div className="w-[95%] shadow-gray-100 shadow-xl rounded-lg p-2 m-auto text-justify">
+                                <div className="w-[95%] shadow-gray-100 shadow-xl rounded-lg p-2 m-auto text-justify xsm:text-sm">
                                     <div className="text-xs justify-center flex mb-2 mt-0">
                                         <div className="bg-gray-300 p-1 px-3 rounded-md">
                                             (02/2023 - 07/2023)
@@ -364,13 +424,13 @@ export default function Slider() {
                                 </div>
                             </div>
 
-                            <div className="w-[32%]">
+                            <div className="w-[32%] xsm:w-[90%] xsm:m-auto">
                                 <div className="bg-slate-700 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3">
                                     <div className="mr-4 ">
                                         PTU Exam (Clone)
                                     </div>
                                 </div>
-                                <div className="w-[95%] shadow-gray-100 shadow-xl rounded-lg p-2 m-auto text-justify">
+                                <div className="w-[95%] shadow-gray-100 shadow-xl rounded-lg p-2 m-auto text-justify xsm:text-sm">
                                     <div className="text-xs justify-center flex mb-2 mt-0">
                                         <div className="bg-gray-300 p-1 px-3 rounded-md">
                                             (10/2022 - 12/2022)
@@ -388,8 +448,8 @@ export default function Slider() {
                         </div>
                     </div>
                     <div>
-                        <div className=" mt-4 flex justify-center text-3xl font2 font-semibold">Achievements</div>
-                        <div className="flex justify-center mb-10">
+                        <div className=" mt-4 flex justify-center text-3xl font2 font-semibold xsm:text-2xl xsm:mt-8">Achievements</div>
+                        <div className="flex justify-center mb-10 xsm:text-sm">
                             <table className="w-[90%] bg-slate-700  text-center p-2 mt-4">
                                 <tr>
                                     <td className="w-[10%] border-2 border-solid border-white p-2 text-white">
@@ -460,93 +520,93 @@ export default function Slider() {
                 <div className={`${sil}`}>
                     <div className="flex justify-center mb-10">
                         <div className="w-[90%] ">
-                            <div className=" mt-4 flex justify-center text-3xl font2 font-semibold">Skills</div>
-                            <div className="flex flex-wrap justify-center">
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                            <div className=" mt-4 flex justify-center text-3xl font2 font-semibold xsm:text-2xl">Skills</div>
+                            <div className="flex flex-wrap justify-center xsm:text-sm xsm:ml-0 xsm:mr-0">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Python
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         JavaScript
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         C/C++
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        HTML
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        CSS
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        React.js
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        Next.js
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        Express.js
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        Node.js
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        Tailwind CSS
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        Bootstrap
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Cloud Computing
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        HTML
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Machine Learning
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        CSS
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Artificial Intelligence
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        SQL
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        React.js
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        Office Suite
-                                </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Problem Solving
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        Next.js
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        Communication
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        Node.js
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        Tailwind CSS
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         React Native
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
-                                        Communication
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        Express.js
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        Bootstrap
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        Office Suite
+                                </div>
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
+                                        SQL
                                 </div>
                             </div>
 
                             
-                            <div className=" mt-4 flex justify-center text-3xl font2 font-semibold">Interests</div>
+                            <div className=" mt-4 flex justify-center text-3xl font2 font-semibold xsm:text-2xl">Interests</div>
                             <div className="flex flex-wrap justify-center">
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Problem Solving
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Badminton
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Reading Books
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Competitive Programming
                                 </div>                                
                             </div>
 
-                            <div className=" mt-4 flex justify-center text-3xl font2 font-semibold">Languages Known</div>
+                            <div className=" mt-4 flex justify-center text-3xl font2 font-semibold xsm:text-2xl">Languages Known</div>
                             <div className="flex flex-wrap justify-center">
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         English
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Punjabi
                                 </div>
-                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-pointer hover:bg-slate-600 w-auto">
+                                <div className="bg-slate-500 p-2 px-7 text-white text-center rounded-full mr-2 ml-3 flex justify-center mt-3 cursor-default hover:bg-slate-600 w-auto">
                                         Hindi
                                 </div>
                             </div>
